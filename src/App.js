@@ -16,7 +16,7 @@ import LevelTwo from './Container/LevelTwo/Index';
 import LevelThree from './Container/LevelThree/Index';
 import MyDocument from './Container/MyDocument/Index';
 import MyKyckey from './Container/Mykyckey/Index';
-import Footer from './Component/Footer/Index';
+import Myaccount from './Container/Myaccount/Index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -26,7 +26,6 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Homepage} />
-          <Route exact path="/" component={Footer} />
           <Route exact path="/" component={Header} />
           <Route exact path="/kyclevel" component={Kyclevel} />
           <Route exact path="/level1" component={LevelOne} />
@@ -34,9 +33,9 @@ function App() {
           <Route exact path="/level3" component={LevelThree} />
           <Route exact path="/MyDocument" component={MyDocument} />
           <Route exact path="/MyKyckey" component={MyKyckey} />
+          <Route exact path="/Myaccount" component={Myaccount} />
         </Switch>
       </Router>
-      <Footer/> 
     </div>
 
   );

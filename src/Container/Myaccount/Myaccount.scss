@@ -1,0 +1,92 @@
+.note-txt-red{
+    color: #9b2426;
+    font-size: 14px;
+}
+
+.account-white-box{
+    background-color: #ffffff ;
+    padding: 60px;
+    margin-top: 10% ;
+    width: 75%;
+    margin: 0 auto; 
+}
+.KycAcc-container{
+    background-image: url(/static/media/sprkbgd.87f3eeb5.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.section-account{
+    margin-top: 20px;
+}
+.instruction-txt{
+    color: #000;
+}
+
+ul li .instruction-txt{
+    list-style: initial;
+}
+.hex-txt{
+    color: #000;
+}
+
+.profile-img-kyc{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-wrapper{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	margin: 50px auto;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 1px 1px 15px -5px black;
+	transition: all .3s ease;
+	&:hover{
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+	&:hover .profile-pic{
+		opacity: .5;
+	}
+	.profile-pic {
+    height: 100%;
+		width: 100%;
+		transition: all .3s ease;
+		&:after{
+			font-family: FontAwesome;
+			content: "\f007";
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			font-size: 190px;
+			background: #ecf0f1;
+			color: #34495e;
+			text-align: center;
+		}
+	}
+	.upload-button {
+		position: absolute;
+		top: 0; left: 0;
+		height: 100%;
+		width: 100%;
+		.fa-arrow-circle-up{
+			position: absolute;
+			font-size: 234px;
+			top: -17px;
+			left: 0;
+			text-align: center;
+			opacity: 0;
+			transition: all .3s ease;
+			color: #34495e;
+		}
+		&:hover .fa-arrow-circle-up{
+			opacity: .9;
+		}
+	}
+}

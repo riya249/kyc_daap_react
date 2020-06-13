@@ -25,8 +25,8 @@ class LevelThree extends Component {
                     <Container>
                         <Col sm={12}>
                             <div className="kyc-white-box">
-                                <h4 className="m4-level">Level 1</h4>
-                                <h4 className="m4-txt-level">In this Level the user  will submit only documents</h4>
+                                <h4 className="m4-level">Level 3</h4>
+                                <h4 className="m4-txt-level">In this level the user will create a video by explaining about self with holding  the Govt. issued Valid I'd and Page  with Details written in his hand .</h4>
                                 <Container>
                                     <Row>
                                         <Col>

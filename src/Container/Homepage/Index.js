@@ -5,7 +5,7 @@ import Header from '../../Component/Header/Index';
 import Hero from '../../Component/Hero/Index';
 import Section from '../../Component/Section/Index';
 import Images from '../../Container/Images/Images';
-
+import Footer from '../../Component/Footer/Index';
 
 
 class Homepage extends Component {
@@ -71,6 +71,7 @@ class Homepage extends Component {
                     </div>
                    
                 </div>
+                <Footer/>
             </div>
 
         );

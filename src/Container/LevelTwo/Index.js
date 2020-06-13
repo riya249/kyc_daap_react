@@ -25,8 +25,8 @@ class LevelTwo extends Component {
                     <Container>
                         <Col sm={12}>
                             <div className="kyc-white-box">
-                                <h4 className="m4-level">Level 1</h4>
-                                <h4 className="m4-txt-level">In this Level the user  will submit only documents</h4>
+                                <h4 className="m4-level">Level 2</h4>
+                                <h4 className="m4-txt-level">In this level the user will hold Govt.Issued Valid  I'd and page with Details written in hand and get an Image</h4>
                                 <Container>
                                     <Row>
                                         <Col>
@@ -149,28 +149,50 @@ class LevelTwo extends Component {
                                         </Col>
                                     </Row>
                                     <label for="formGroupExampleInput">ID Image Upload here</label>
-                                            <p className="note-para">JPG OR PNG file only , Max Size allowed is 2 MB </p>
-                                           
-                                            <div className="flex-choose">
-                                                <form className="select-style" action="/action_page.php">
-                                                    <input type="file" id="myfile" name="myfile" /><br /><br />
-                                                </form>
-                                            </div>
-                                            <div>
-                                            <Row>
-                                            <Col sm={4}> 
-                                            </Col>
-                                            <Col sm={4}>    
-                                            <div className="border-style-img">
-                                            <img className='kycdapp-plus-Img' src={Images.path.plusimg} />
-                                            </div>
-                                           
+                                    <p className="note-para">JPG OR PNG file only , Max Size allowed is 2 MB </p>
+
+                                    <div className="flex-choose">
+                                        <form className="select-style" action="/action_page.php">
+                                            <input type="file" id="myfile" name="myfile" /><br /><br />
+                                        </form>
+                                    </div>
+                                    <Row>
+                                        <Col sm={4}>
                                         </Col>
-                                        </Row>
-                                        <div className="submit-btn-flex">
-                                                <button className="submit-btn">Submit</button>
+                                        <Col sm={4}>
+                                            <div className="border-style-img">
+                                                <img className='kycdapp-plus-Img' src={Images.path.plusimg} />
                                             </div>
+
+                                        </Col>
+                                    </Row>
+                                    <p className="note-txt-red big-font">*Instruction for image with ID.</p>
+                                    <div>Please follow the instruction while uploading selfie with ID</div>
+                                    <ul>
+                                        <li className="instruction-txt"><span className="hex-txt">&#x2022;</span> Write KYC DAPP, Your Name, Your Signature and Date on a plain paper</li>
+                                        <li className="instruction-txt"><span className="hex-txt">&#x2022;</span> Hold your ID in right hand and the signed paper with your name in left hand and get a clear image clicked.</li>
+                                        <li className="instruction-txt"><span className="hex-txt">&#x2022;</span> Make sure that the info on ID is clearly readable and not hidden under fingers along with your photo on it.</li></ul>
+                                    <div className="flex-choose">
+                                        <form className="select-style" action="/action_page.php">
+                                            <input type="file" id="myfile" name="myfile" /><br /><br />
+                                        </form>
+                                    </div>
+                                    <Row>
+                                        <Col sm={4}>
+                                        </Col>
+                                        <Col sm={4}>
+                                            <div className="border-style-img">
+                                                <img className='kycdapp-plus-Img' src={Images.path.plusimg} />
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                    <label>
+                                        <input type="checkbox" id="tc" name="prog" value="" /><span>&nbsp;I hereby confirm that all the information provided are accurate and I agree to the  <a href="/pdf/terms.pdf" target="_blank"><b><u>Terms &amp; conditions</u> | </b></a><a href="/pdf/privacy.pdf" target="_blank"><b><u>Privacy policy</u></b></a></span></label>
+                                    <div>
+                                        <div className="submit-btn-flex">
+                                            <button className="submit-btn">Submit</button>
                                         </div>
+                                    </div>
                                 </Container>
                             </div>
                         </Col>
