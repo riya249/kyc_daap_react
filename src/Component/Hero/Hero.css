@@ -1,0 +1,34 @@
+.kyc-hero-bgd{
+    background-color:#230554;
+    height: 80vh;
+}
+.kyc-hero-img{
+    width: 100%;
+}
+
+.wrapper-container-hero{
+    width: 80%;
+    margin: 0 auto;
+   }
+   .hero-detail-txt{
+       color: #ffffff;
+       font-size: 18px;
+   }
+   .quick-effect{
+       color: #e133c2;
+   }
+   .hero-head-txt{
+       color: #ffffff;
+       font-size: 33px;
+       font-weight: bold;
+       margin-bottom: 30px;
+       margin-top: 80px;
+   }
+   .knw-btn{
+       background-color: #7f21ca ;
+       color: #ffffff;
+       border: 0;
+       height: 50px;
+       font-weight: bold;
+       border-radius: 10px;
+   }

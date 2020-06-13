@@ -1,0 +1,50 @@
+.kycdapp-share-Img{
+    width: 80px;
+    height: 80px;
+    margin: 25px;
+}
+
+.share-flex-box{
+    display: flex;
+    justify-content: center;
+}
+
+.kyc-wh-box {
+    background-color: #ffffff;
+    margin-top: 8%;
+    width: 65%;
+    margin: 0 auto;
+}
+.kyc-red-box{
+    background-color: #9b2426;
+     padding: 30px;
+}
+
+.txt-wallt{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wallet-add-box{
+    width: 80%;
+    height: 40px;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+.red-mb-txt{
+    color: #9b2426;
+    font-size: 18px;
+    padding-left: 10px;
+    height: 40px;
+    width: 80%;
+    border: 0;
+}
+.wallet-display{
+    display: flex;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    font-size: 30px;
+}
